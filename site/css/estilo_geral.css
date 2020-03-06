@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    font: 100% arial, sans-serif;
+    background-color: #607D8B;
+    color:#212121;
+}
+
+section{
+    margin:1rem 0;
+    background-color: #fff;
+    padding: .75rem;
+}
+
+section h2{
+    border-bottom: 2px solid #607D8B;
+    padding: .75rem;
+    margin: 0;
+    background: #CFD8DC;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.jumbotron{
+    min-height:60vh;
+    background-image: url(../imgs/bg-3.jpg);
+    background-size: cover;
+    background-position: right center;
+    padding: 10rem 2rem;
+    color:#fff;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size:3.5rem;
+    text-shadow: 2px 2px 1px rgba(0,0,0,.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.jumbotron p{
+    padding: 1rem;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(0,0,0,.4);
+    font-size: 1rem;
+    display:inline-block;
+}
+
+.nav{
+    position: absolute;
+    top:2rem;
+    right: 2rem;
+    z-index: 1;
+}
+
+.nav li{
+    border: 1px solid #607D8B;
+    margin-left: 1rem;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+
+.nav li:hover{
+    background-color: rgba(0,0,0,.3);
+}
+
+.nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .75rem;
+    color:#fff;
+    padding: .75rem;
+}
+
+.card-container{
+    padding:.75rem 1.25rem;
+}
+
+.card-container .card{
+    border-radius: 0;
+    border:none;
+}
+
+.card-container .card-body{
+    background-color: #CFD8DC;
+    padding: 1rem .75rem;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    color:#212121;
+}
+
+.card-container [class^=col]{
+    padding-left: .5rem;
+    padding-right:.5rem;
+}
+
+.rodape{
+    height: 2rem;
+    color:#fff;
+    text-align: center;
+    font-size: .8rem;
+    background-color: #212121;
+}
+
+.rodape p{
+    margin: 0;
+}
